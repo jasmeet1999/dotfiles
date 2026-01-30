@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- Font settings
-config.font_size = 12
+config.font_size = 14
 config.font = wezterm.font_with_fallback({
 	{ family = "JetBrains Mono" },
 	{ family = "Symbols Nerd Font Mono" },
